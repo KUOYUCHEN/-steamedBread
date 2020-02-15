@@ -1,0 +1,52 @@
+{
+  "product": [
+    {
+      "id": 0,
+      "src": "../../assets/images/dumplings/1.jpg",
+      "name": "包子",
+      "price": "NT$200"
+    },
+    {
+      "id": 1,
+      "src": "../../assets/images/dumplings/2.jpg",
+      "name": "包子",
+      "price": "NT$300"
+    },
+    {
+      "id": 2,
+      "src": "../../assets/images/dumplings/3.jpg",
+      "name": "包子",
+      "price": "NT$400"
+    },
+    {
+      "id": 3,
+      "src": "../../assets/images/dumplings/4.jpg",
+      "name": "包子",
+      "price": "NT$500"
+    },
+    {
+      "id": 4,
+      "src": "../../assets/images/dumplings/5.jpg",
+      "name": "包子",
+      "price": "NT$360"
+    },
+    {
+      "id": 5,
+      "src": "../../assets/images/dumplings/6.jpg",
+      "name": "包子",
+      "price": "NT$700"
+    },
+    {
+      "id": 6,
+      "src": "../../assets/images/dumplings/7.jpg",
+      "name": "包子",
+      "price": "NT$960"
+    },
+    {
+      "id": 7,
+      "src": "../../assets/images/dumplings/8.jpg",
+      "name": "包子",
+      "price": "NT$800"
+    }
+  ]
+}

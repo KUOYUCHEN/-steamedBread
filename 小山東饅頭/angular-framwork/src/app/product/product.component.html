@@ -1,0 +1,37 @@
+<div class="container">
+  <h5 class="p-3">主打商品</h5>
+  <div class="row text-center myWnH">
+    <div class="col-md-4 col-12 col-lg-3" *ngFor="let item of data">
+      <img class="img-fluid" [src]="item.src" alt="">
+      <p>{{item.name}}</p>
+      <p>{{item.price}}</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- form -->
+<div class="container-fluid row d-flex justify-content-center border p-5 form-style">
+  <div class="col-12 text-center">
+    <h2>聯絡表單</h2>
+  </div>
+  <div for="get" class="form-group w-50">
+    <label for="name">姓名</label>
+    <input type="text" name="name" id="name" class="form-control" placeholder="名字" aria-describedby="helpId">
+    <!-- <small id="helpId" class="text-muted d-block">請輸入全名</small> -->
+
+    <label for="tel">電話</label>
+    <input type="tel" name="tel" id="tel" class="form-control" placeholder="09-88888888" aria-describedby="helpId">
+    <!-- <small id="helpId" class="text-muted">請輸入電話</small> -->
+
+    <label for="email">email</label>
+    <input type="email" name="email" id="email" class="form-control" placeholder="email@email.com"
+      aria-describedby="helpId">
+    <!-- <small id="helpId" class="text-muted">請輸入全名</small> -->
+
+    <label for="textarea">留下您寶貴的意見:</label>
+    <textarea class="form-control" name="textarea" id="textarea" rows="3" placeholder="如:訂單、種類、數量..."></textarea>
+
+    <button id="gogo" type="submit" class=" btn btn-primary btn-block mt-3 p-3">確定</button>
+  </div>
+</div>
