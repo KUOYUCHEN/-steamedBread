@@ -1,0 +1,27 @@
+.followeUs {
+  position: absolute;
+  top: 9px;
+  left: 170px;
+}
+.followeUs + div {
+  position: absolute;
+  top: 72px;
+  left: 170px;
+}
+
+.followeUs + .social > a > img {
+  width: 40px;
+  height: 40px;
+  margin: 0px 8px;
+}
+
+ul {
+  padding-left: 0;
+}
+.galleryStyle {
+  text-align: center;
+  background-color: hsl(0, 100%, 50%);
+  font-weight: 800;
+  color: hsl(0, 100%, 25%);
+  font-size: 40px;
+}
