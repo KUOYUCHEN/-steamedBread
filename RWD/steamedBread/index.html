@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap' rel='stylesheet'>
+    <title>Title</title>
+</head>
+
+<body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">小山東</a>
+        <!--三橫線按鈕-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--中斷點群組和隱藏導覽列內容-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!--導覽列開始-->
+            <!-- TODO w-100 d-flex justify-content-around text-center -->
+            <ul class="navbar-nav w-100 d-flex justify-content-around text-center">
+                <!-- active表示當前的頁面-->
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">首頁</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">關於我們</a>
+                </li>
+
+                <!-- TODO 導覽列下拉式選單 -->
+                <ul>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown">
+                            產品列表
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">包子</a>
+                            <a class="dropdown-item" href="#">餃子</a>
+                            <a class="dropdown-item" href="#">薑片</a>
+                        </div>
+                    </li>
+                </ul>
+                <!-- 搜尋 -->
+                <nav class="navbar navbar-light bg-light d-flex justify-content-center">
+                    <form class="form-inline">
+                        <input class="form-control" type="search">
+                        <button class="btn" type="submit">搜尋</button>
+                    </form>
+                </nav>
+            </ul>
+        </div>
+    </nav>
+    <!-- header -->
+    <div class="container text-center mt-5">
+        <img src="images/logo.PNG" alt="">
+    </div>
+    <div class="container">
+        <ul class="nav row text-center m-3 border-top border-bottom ">
+            <a class="col-12 col-md-6 p-4 myHover" href="index.html">
+                <li class="font-weight-bold">關於我們</li>
+            </a>
+            <a class="col-12 col-md-6 p-4 myHover" href="product.html">
+                <li class="font-weight-bold">所有商品</li>
+            </a>
+        </ul>
+    </div>
+    <!-- header -->
+
+    <!-- center -->
+    <div class="container">
+        <div class="row d-flex justify-content-center p-4">
+            <div class="col-12 col-md-6 p-4">
+                <h3>山東小包子</h3>
+                <p>山東小包子的精神與源起 :
+                    「天道酬勤，地道酬善，人道酬誠，商道酬信，業道酬精」，我們山東酵匠的源起與命名就是2個窮就一生精力，秉持著職人匠心，不斷研究山東發酵的人所組成。將山東發酵的技術推衍實驗到極致，做出組織綿密，口感細緻Q彈的包子饅頭。以誠信的態度對待每一位消費，堅持不添加人工香料與色素，只採用純天食材入色。滿滿的餡料與新鮮的食材讓山東酵匠的包子饅頭香氣四溢，芬芳可口。我們所使用的著名食材有大甲芋頭，寶山黑糖和台南東山龍眼木煙燻桂圓，本地黑豬肉，鮮蔥及高山高麗菜，另外，麵粉更是使用僑泰興頂級麵粉(鼎泰豐同供應商)，真正的誠信，專業地態度作為企業的根本。
+                </p>
+            </div>
+            <div class="col-12 col-md-6 p-4">
+                <img src="./images/about_001.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- center -->
+
+    <!-- footer -->
+    <div class="container-guild" style="background-color: rgb(42, 44, 44);">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 p-4 d-flex justify-content-center">
+                    <a href="javascript:;"><img class="img-fluid" src="images/QRcode.png" alt="" /></a>
+                </div>
+                <div class="col-3 d-flex justify-content-center">
+                    <p class="text-white p-3 pt-5">
+                        水餃店 <br />
+                        line: @123456 <br />
+                        facebook: www.facebook.com <br />
+                        Tel: 0915619678<br />
+                        10123 新竹縣竹北市某某某1某某-1 <br />
+                    </p>
+                </div>
+                <div class="col-3">
+                    <div class="row d-flex pt-5">
+                        <a class="col-4" href="https://www.facebook.com/"><img class="img-fluid" src="images/FB.png"
+                                alt="" /></a>
+                        <a class="col-4" href="https://www.instagram.com/"><img class="img-fluid" src="images/IG.png"
+                                alt="" /></a>
+                        <a class="col-4" href="https://www.youtube.com/"><img class="img-fluid" src="images/YouTuBe.png"
+                                alt="" /></a>
+                    </div>
+                </div>
+                <div class="col-12 text-white text-center">山東小包子有限公司 版權所有Copyright © 2020 www.XXXX.com.tw All rights
+                    reserved.</div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

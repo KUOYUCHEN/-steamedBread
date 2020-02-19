@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  font-size: 20px;
+  background-color: lightblue;
+  font-family: "微軟正黑體";
+}
+
+.fw {
+  width: 100%;
+  height: auto;
+}
+/* .bg {
+  background-color: lightgray;
+} */
+
+@media screen and (min-width: 992px) {
+  .logo {
+    position: absolute;
+    font-size: 60px;
+    text-shadow: 0.1em 0.1em 0.1em black;
+    padding: 12px 0 17px 45px;
+  }
+  .logo a {
+    text-decoration: none;
+    color: red;
+  }
+
+  .header {
+    position: fixed;
+    background: rgba(9, 52, 245, 0.274);
+    width: 100%;
+    height: 100px;
+    left: 0;
+    top: 0;
+  }
+  .nav ul {
+    position: absolute;
+    list-style-type: none;
+    width: 80%;
+    right: 0;
+    top: 0;
+    text-align: center;
+  }
+  .nav > ul > li {
+    display: inline-block;
+    padding: 40px;
+  }
+  .nav > ul > li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+  }
+  .nav > ul > li > a:hover {
+    /* font-size: 30px; */
+    color: red;
+    text-shadow: 0.1em 0.1em 0.1em red;
+  }
+}
+
+/* mian --- start*/
+/* main .mainHomePages { */
+/* padding: 150px 400px; */
+/* box-sizing: border-box; */
+/* } */
+
+main .mainHomePages .homePage {
+  background-color: lightcoral;
+  border: 2px solid red;
+  padding: 200px;
+}
+
+main .mainHomePages .text p {
+  /* text-align: center; */
+  width: 40%;
+  float: left;
+  box-sizing: border-box;
+  padding-top: 10%;
+  color: red;
+  font-size: 40px;
+}
+
+main .mainHomePages img {
+  width: 60%;
+  /* float: right; */
+  box-sizing: border-box;
+  padding: 100px 50px;
+}
+
+/* footer */
+.footer {
+  clear: both;
+}

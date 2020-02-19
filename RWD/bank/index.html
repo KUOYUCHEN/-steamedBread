@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <title>Bank</title>
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <!-- 首頁 -->
+    <div class="row">
+
+      <div class="col-12 d-flex justify-content-end">
+        <a class="home-page bg-primary" href="javascript:;">回首頁</a>
+      </div>
+
+      <!-- 輪播 -->
+      <div id="demo" class="carousel slide col-12" data-ride="carousel">
+        <!--標記符號與控制項 -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        <!-- 輪播圖片 -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="my-img-fluid" src="./images/carosel001.jpg">
+          </div>
+          <div class="carousel-item">
+            <img class="my-img-fluid" src="./images/carosel002.jpg">
+          </div>
+          <div class="carousel-item">
+            <img class="my-img-fluid" src="./images/carosel003.jpg">
+          </div>
+        </div>
+        <!-- 左右切換按鈕 -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+
+      <!-- navgation -->
+      <div class="col-12">
+        <ul class="bg-primary my-nav-style row no-gutters">
+          <li class="col-12 col-md-4 col-lg-2">
+            <a href="javascript:;">關於我們</a>
+          </li>
+          <li class="col-12 col-md-4 col-lg-2">
+            <a href="javascript:;">貸款資訊</a>
+          </li>
+          <li class="col-12 col-md-4 col-lg-2">
+            <a href="javascript:;">新發明</a>
+          </li>
+          <li class="col-12 col-md-4 col-lg-2">
+            <a href="javascript:;">神農獎</a>
+          </li>
+          <li class="col-12 col-md-4 col-lg-2">
+            <a href="javascript:;">金融商品投資</a>
+          </li>
+          <li class="col-12 col-md-4 col-lg-2">
+            <a href="javascript:;">流行百貨批發</a>
+          </li>
+        </ul>
+        </nav>
+        <!-- navgation -->
+
+        <!-- center -->
+        <div class="col-12">
+          <div class="row my-center">
+            <div class="col-12 col-md-6 col-lg-4 pt-3">
+              <div class="row">
+                <div class="col-6 text-center"><img class="img-fluid" src="images/loan001.jpg" alt="">信用貸款</div>
+                <div class="col-6 text-center"><img class="img-fluid" src="images/loan002.jpg" alt="">汽車貸款</div>
+                <div class="col-6 text-center"><img class="img-fluid" src="images/loan003.jpg" alt="">房屋貸款</div>
+                <div class="col-6 text-center"><img class="img-fluid" src="images/loan004.jpg" alt="">中小企業貸款</div>
+                <div class="col-6 text-center"><img class="img-fluid" src="images/loan005.jpg" alt="">代償服務</div>
+                <div class="col-6 text-center"><img class="img-fluid" src="images/loan006.jpg" alt="">合作店家</div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <img class="img-fluid p-3 d-block" src="images/center002.png" alt="">
+            </div>
+            <!-- form -->
+            <div class="col-12 col-md-6 col-lg-4 pt-3">
+              <form action="#" class="my-form">
+                <div class="text-center mt-3">立即免費諮詢</div>
+                <div class="text-center">留下您的資料給我們立即和您聯絡</div>
+                <div class="form-group">
+                  <label for="name">名字</label>
+                  <input type="text" class="form-control" name="name" id="name" placeholder="王小明"><label>性別</label>
+                  <label for="male">男</label>
+                  <input type="radio" name="sexy" id="male">
+                  <label for="female">女</label>
+                  <input type="radio" name="sexy" id="female">
+                  <label for="tel">電話</label>
+                  <input type="tel" class="form-control" name="tel" id="tel" placeholder="08-8888888">
+                  <label for="phone">手機</label>
+                  <input type="text" class="form-control" name="phone" id="phone" placeholder="098888888">
+                  <label for="address">地址</label>
+                  <input type="address" class="form-control" name="address" id="address">
+                  <button class="form-control my-form-button">送出</button>
+                </div>
+              </form>
+            </div>
+            <!-- form END -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <p>誠信金貸流程</p>
+              <img class="img-fluid p-2 img-fluid" src="images/carosel001.jpg" alt="">
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <p>成功貸款案例</p>
+              <div class="row">
+                <div class="col-12">
+                  <div class="row">
+                    <div class="col-8">
+                      <p class="text-left" style="font-size: 15px;"><span>2020-01-01</span>專開跑囉</p>
+                    </div>
+                    <div class="col-4">
+                      <a href="javascript:;">
+                        <p class="text-left" style="font-size: 15px;">&lt;詳全文&gt;<p>
+                      </a>
+                    </div>
+                    <div class="col-8">
+                      <p class="text-left" style="font-size: 15px;"><span>2020-01-01</span>專開跑囉,新方案</p>
+                    </div>
+                    <div class="col-4">
+                      <a href="javascript:;">
+                        <p class="text-left" style="font-size: 15px;">&lt;詳全文&gt;<p>
+                      </a>
+                    </div>
+                    <div class="col-8">
+                      <p class="text-left" style="font-size: 15px;"><span>2020-01-01</span>還在為錢煩惱嗎?</p>
+                    </div>
+                    <div class="col-4">
+                      <a href="javascript:;">
+                        <p class="text-left" style="font-size: 15px;">&lt;詳全文&gt;<p>
+                      </a>
+                    </div>
+                    <div class="col-8">
+                      <p class="text-left" style="font-size: 15px;"><span>2020-01-01</span>成功案例陳小姐</p>
+                    </div>
+                    <div class="col-4">
+                      <a href="javascript:;">
+                        <p class="text-left" style="font-size: 15px;">&lt;詳全文&gt;<p>
+                      </a>
+                    </div>
+                    <div class="col-8">
+                      <p class="text-left" style="font-size: 15px;"><span>2020-01-01</span>創新科技創新科技</p>
+                    </div>
+                    <div class="col-4">
+                      <a href="javascript:;">
+                        <p class="text-left" style="font-size: 15px;">&lt;詳全文&gt;<p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- center -->
+
+      </div>
+    </div>
+
+
+    <!-- footer -->
+
+    <footer class="container-guild bg-secondary p-3 d-block">
+      <div class="row">
+        <div class="col">XXXX有限公司<br>
+          http://www.xxxx.com.tw<br>
+          信箱：XXXXX.service@gmail.com</div>
+        <div class="col">
+          XX總部<br>
+          電話：03-999999 傳真：03-9999999<br>
+          地址：XXXXXXXXXXXXXXXXXXXXXX
+        </div>
+        <div class="col">
+          XX分部<br>
+          電話：03-999999 傳真：03-9999999<br>
+          地址：XXXXXXXXXXXXXXXXXXXXXX
+        </div>
+      </div>
+      <span>&copy;2020 XXXX 版權所有</span>
+    </footer>
+    <!-- footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,235 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+/* Logo start ----------------------------------------------*/
+.logo a {
+  /* logo a 連結樣式*/
+  /* position: fixed; */
+  text-decoration: none;
+  font-size: 50px;
+  float: left;
+  line-height: 90px;
+  display: block;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+/* Logo end ----------------------------------------------*/
+
+/* nav start ----------------------------------------------*/
+.nav {
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  border-bottom: 2px solid black;
+  background-color: black;
+  opacity: 0.8;
+  z-index: 9999;
+}
+
+ul.drop-down-menu {
+  border-right: #ccc 1px solid;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 13px;
+  float: right;
+  position: relative;
+  right: 50px;
+}
+
+ul.drop-down-menu li {
+  position: relative;
+  white-space: nowrap;
+  border-right: #ccc 1px solid;
+}
+
+ul.drop-down-menu > li:last-child {
+  border-right: none;
+}
+
+ul.drop-down-menu > li {
+  float: left; /* 只有第一層是靠左對齊*/
+}
+
+ul.drop-down-menu a {
+  /*menu 上 a連結 樣式*/
+  color: whitesmoke;
+  display: block;
+  padding: 30px 20px;
+  text-decoration: none;
+  line-height: 30px;
+  font-size: 20px;
+  background-color: black;
+}
+ul.drop-down-menu a:hover {
+  /* 滑鼠滑入按鈕變色*/
+  background-color: #ef5c28;
+  color: #fff;
+}
+ul.drop-down-menu li:hover > a {
+  /* 滑鼠移入次選單上層按鈕保持變色*/
+  background-color: #ef5c28;
+  color: #fff;
+}
+ul.drop-down-menu ul {
+  border: #ccc 1px solid;
+  position: absolute;
+  z-index: 99;
+  left: -1px;
+  top: 100%;
+  min-width: 180px;
+}
+
+ul.drop-down-menu ul li {
+  border-bottom: #ccc 1px solid;
+}
+
+ul.drop-down-menu ul li:last-child {
+  border-bottom: none;
+}
+
+ul.drop-down-menu ul ul {
+  /*第三層以後的選單出現位置與第二層不同*/
+  z-index: 999;
+  top: 0px;
+  left: 50px;
+}
+
+ul.drop-down-menu ul {
+  /*隱藏次選單*/
+  display: none;
+}
+
+ul.drop-down-menu li:hover > ul {
+  /* 滑鼠滑入展開次選單*/
+  display: block;
+}
+ul.drop-down-menu ul {
+  /*隱藏次選單*/
+  left: 99999px;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+ul.drop-down-menu li:hover > ul {
+  /* 滑鼠滑入展開次選單*/
+  opacity: 1;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  left: -1px;
+  border-right: 5px;
+}
+
+ul.drop-down-menu li:hover > ul ul {
+  /* 滑鼠滑入之後、次選單之後的選單依舊隱藏*/
+  left: 99999px;
+}
+
+ul.drop-down-menu ul li:hover > ul {
+  /* 第二層之後的選單展開位置*/
+  left: 90%;
+}
+/* nav end ----------------------------------------------*/
+
+/* section start ----------------------------------------------*/
+
+/* 
+  1.設定首頁 每一個div的高度1003 
+  2.使用box-sizing控制寬度大小
+  3.使用display:table 讓品項和文字水平
+  4.寬度設在100%
+  5.使用border 使用border 區分每個 homePage 
+*/
+.section .homePage {
+  position: relative;
+  height: 1003px;
+  box-sizing: border-box;
+  display: table;
+  width: 100%;
+  background: rgb(34, 195, 82);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 195, 82, 1) 1%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  z-index: -2;
+}
+
+/* 
+使用在index_4.PNG 裡面(你準備好了嗎?)
+*/
+.section .homePage .readynotes {
+  position: absolute;
+  left: 55%;
+  font-size: 80px;
+}
+
+/* 
+控制在section裡面每個 圖片img 
+*/
+.section img {
+  position: relative;
+  z-index: -9999;
+  float: left;
+  padding-top: 250px;
+  left: 100px;
+}
+
+/* 控制homePage文字大小 */
+.p1 {
+  /* box-sizing: border-box; */
+  font-size: 40px;
+  padding-top: 500px;
+  float: left;
+  width: 50%;
+  line-height: 50px;
+}
+/* 
+Q2 = 純文字排版
+*/
+.Q2 {
+  clear: both;
+  box-sizing: border-box;
+  font-size: 16px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.Q2 > p {
+  font-size: 60px;
+  text-align: center;
+}
+.Q2 div {
+  width: 20%;
+  float: left;
+  padding: 130px 0 50px 80px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.Q2 div p {
+  font-size: 30px;
+}
+.Q2 span {
+  font-size: 80px;
+  font-weight: bolder;
+}
+/* section end ----------------------------------------------*/
+
+/* 滾輪 bar start ----------------------------------------------*/
+.bar {
+  position: fixed;
+  right: 10px;
+  top: 40%;
+}
+.radio {
+  display: block;
+  padding-bottom: 20px;
+}
+/* 滾輪 bar end ----------------------------------------------*/
+
+/* footer start ----------------------------------------------*/
+footer {
+  clear: both;
+}
+/* footer end ----------------------------------------------*/
